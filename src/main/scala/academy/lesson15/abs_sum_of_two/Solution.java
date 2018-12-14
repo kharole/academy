@@ -1,4 +1,4 @@
-package academy.misc.abs_sum_of_two;
+package academy.lesson15.abs_sum_of_two;
 
 import java.util.Arrays;
 import java.util.Comparator;
