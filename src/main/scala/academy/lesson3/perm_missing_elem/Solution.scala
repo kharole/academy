@@ -8,8 +8,9 @@ import scala.collection.JavaConverters._
 object Solution {
   def solution(a: Array[Int]): Int = {
     // write your code in Scala 2.12
-    val ts = ((a.length + 1) * (a.length + 2)) / 2
-    val rs = a.sum
-    ts - rs
+    val b = a.map(_.toLong)
+    val ts = ((b.length.toLong + 1) * (b.length.toLong + 2)) / 2
+    val rs = b.sum
+    (ts - rs).toInt
   }
 }
