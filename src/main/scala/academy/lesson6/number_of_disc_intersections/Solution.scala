@@ -1,4 +1,4 @@
-package academy.misc.number_of_disc_intersections
+package academy.lesson6.number_of_disc_intersections
 
 import scala.annotation.tailrec
 import scala.collection.JavaConverters._
